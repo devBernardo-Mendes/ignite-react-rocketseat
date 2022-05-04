@@ -1,5 +1,5 @@
 import React from "react";
-import { RepositoryItem } from "./repositoryItem";
+import { RepositoryItem } from "./RepositoryItem";
 
 const repository = {
   name: "unform",
@@ -10,7 +10,7 @@ const repository = {
 export function RepositoryList() {
   return (
     <section>
-      <h1>Lista de repositorios</h1>
+      <h1>Lista de repositórios</h1>
 
       <ul>
         <RepositoryItem repository={repository} />
