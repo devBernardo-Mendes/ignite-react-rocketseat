@@ -1,4 +1,10 @@
+//
 import React from "react";
+
+// style
+import "../styles/repositories.scss";
+
+// components
 import { RepositoryItem } from "./RepositoryItem";
 
 const repository = {
@@ -9,7 +15,7 @@ const repository = {
 
 export function RepositoryList() {
   return (
-    <section>
+    <section className="repository-list">
       <h1>Lista de repositórios</h1>
 
       <ul>
